@@ -3,7 +3,7 @@ import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Progress } from "@/components/ui/progress";
 import { format, formatDistanceToNow } from "date-fns";
-import { Brain, BriefcaseIcon, TrendingUp } from "lucide-react";
+import { Brain, BriefcaseIcon, TrendingUp, LineChart, TrendingDown } from "lucide-react";
 import React from "react";
 import { Bar, BarChart, CartesianGrid, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts";
 

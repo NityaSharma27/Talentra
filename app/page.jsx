@@ -121,7 +121,7 @@ export default function Home() {
       <h2 className="text-3xl font-bold tracking-tighter text-black sm:text-4xl md:text-5xl">
         Gear up to fast-track your career!
       </h2>
-      <p className="mx-auto max-w-[600px] text-primary-foreground/100 md:text-xltext-white/90">
+      <p className="mx-auto max-w-[600px] text-primary-foreground/100 md:text-xl text-white/90">
         Discover the smarter way to grow — just like thousands of professionals already have.
       </p>
 

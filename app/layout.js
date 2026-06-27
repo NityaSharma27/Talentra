@@ -10,7 +10,7 @@ const inter = Inter({subsets: ["latin"]});
 
 export const metadata = {
   title: "Talentra - THE NEW ERA OF TALENT",
-  description: "",
+  description: "Your AI Partner for Professional Growth"
 };
 
 export default function RootLayout({ children }) {
@@ -36,7 +36,9 @@ export default function RootLayout({ children }) {
 
           <footer className="bg-muted/50 py-12">
             <div className="container mx-auto px-4 text-center text-gray-200">
-              <p>Made By Nitya Sharma</p>
+              <p>© 2026 Talentra. All rights reserved.
+
+AI-Powered Career Platform for Students & Professionals.</p>
             </div>
           </footer>
         </ThemeProvider>

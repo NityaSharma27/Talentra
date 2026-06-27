@@ -110,9 +110,9 @@ const DashboardView = ({ insights }) => {
                         <Brain className="h-4 w-4 text-muted-foreground" />
                     </CardHeader>
                     <CardContent>
-                        <div className="flex flex-wrap gap-1">
+                        <div className="flex flex-wrap gap-1 overflow-hidden">
                             {insights.topSkills.map((skill) => (
-                                <Badge key={skill} variant="secondary">
+                                <Badge key={skill} variant="secondary" className="max-w-full whitespace-normal text-center break-words">
                                     {skill}
                                 </Badge>
                             ))}

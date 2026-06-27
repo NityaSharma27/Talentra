@@ -19,7 +19,6 @@ import { Sparkles, PlusCircle, X, Pencil, Save, Loader2 } from "lucide-react";
 import { improveWithAI } from "@/actions/resume";
 import { toast } from "sonner";
 import useFetch from "@/hooks/user-fetch";
-// import useFetch from "@/hooks/use-fetch";
 
 const formatDisplayDate = (dateString) => {
   if (!dateString) return "";
